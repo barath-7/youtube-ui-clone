@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: #282828;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 5.6rem;
+    background-color: #282828fa;
+    z-index: 69;
+  }
+
+.menu-button{
+    margin-right: 2.4rem;    
+    margin: 0 2.4rem;
+  background-color: #282828;
+}
+
+
+
+.yt-home img{
+    width: auto
+    height: auto;
+  
+}
+
+.content{
+    text-align: center;
+}
