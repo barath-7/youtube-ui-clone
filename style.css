@@ -29,12 +29,23 @@ header {
 
 
 
-.yt-home img{
-    width: auto
-    height: auto;
+.yt-home h2{
+    
+    color: black;
   
 }
 
-.content{
-    text-align: center;
-}
+.video-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+  
+  .video-player iframe {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    width: 50%;
+    height: 50%;
+  }
